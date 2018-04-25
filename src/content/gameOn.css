@@ -1,0 +1,6 @@
+.siteListPanel {float:left;}
+.siteDetailPanel {float:left;}
+
+.siteItem {max-width:200px; color:white;background-color: rgb(25, 128, 59); padding:10px; margin:10px;}
+.siteItem:hover {color:black; background: linear-gradient(to bottom, #b4e391 13%,#61c419 50%,#b4e391 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */; cursor:pointer;}
+.siteDetail {width:400px; height:400px; margin:20px; padding:10px; border:1px solid green; text-align:center;}

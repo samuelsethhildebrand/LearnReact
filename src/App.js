@@ -1,15 +1,23 @@
-import React, { Component } from 'react';
-import Sites from './components/sites';
+import React from 'react';
+import SiteList from './components/siteList';
+import SiteDetail from './components/siteDetail';
 
 class App extends React.Component
-{
-  render() { return 
+{ render() { return ( 
+    
     <div>
-      <h1 className="house">Hello Seth</h1>
-      <p>Below this is where sites will go.</p>
-      <Sites />
-    </div>
-  }
-}
+      <h1 className="pageTitle">Soccer Facilities</h1>
 
+      <div className="siteListPanel">
+        <SiteList/>
+      </div>
+
+      <div className="siteDetailPanel">
+        <SiteDetail />
+      </div>
+
+    </div>
+  
+)}
+}
 export default App;
